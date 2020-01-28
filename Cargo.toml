@@ -1,5 +1,5 @@
 [package]
-name = "hello_world"
+name = "pong_with_tetra"
 version = "0.1.0"
 authors = ["Smekens Robin | Two Ones Studio <30989673+TwoOnesStudio@users.noreply.github.com>"]
 edition = "2018"
@@ -7,5 +7,5 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tetra = "0.3"
+tetra = { version = "0.3", path = "../tetra" }
 rand = "0.7"
